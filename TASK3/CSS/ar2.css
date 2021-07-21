@@ -1,0 +1,70 @@
+
+body{
+    margin: 0;
+    background-color: white;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(picc.jpg);
+}
+.title{
+
+	height:200px;
+}
+
+ .title h1{
+    background-color:red;
+     color:white;
+     text-align:center;
+}
+.main{	
+	margin:auto;
+	width:50%;
+}
+
+.login{
+	   background-color:black;
+	   text-align:center;
+}
+.login,.search{
+    padding: 20px;
+}
+
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    text-align:center;
+}
+.AL{
+ font-family: Helvetica, sans-serif;
+}
+
+
+input[type=text],input[type=password],select{
+    background-color:white;
+    color: black;
+    border: none;
+    font-size: 100%;
+    letter-spacing: 0.2em;
+    font-family: Helvetica, sans-serif;
+}
+
+input[type=submit]{
+    background-color: red;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+
+
+}
+
+input[type=submit]:hover{
+    background-color: white;
+    color: black;
+}
+

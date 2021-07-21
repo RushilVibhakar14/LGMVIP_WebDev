@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color:white;
+    color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(pic5.jpg);
+}
+
+
+.container {
+    margin: 5% 10%;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.s_name{
+    font-size: 20px;
+     width:50%;
+    margin:auto;
+    text-align:center;
+    background-color:white;
+     color:red;
+}
+
+.s_result{
+    font-size: 18px;
+    display: grid;
+    color:white;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button{
+    text-align: center;
+}
+
+.s_result p{
+    background-color:red;
+    text-align: center;
+   opacity: 0.8;
+}
+.s_result h4{
+ background-color:red;
+    text-align: center;
+   opacity:0.8;
+}
+.result p{
+    font-size: 20px;
+   
+}
+ .result{
+	color:red;
+    background-color:white;
+    margin:auto;
+    width:40%;
+    align-items:center;
+    text-align:center;
+    
+}
+.error {
+    color: red;
+    margin: 30px 0 0 30vh;
+}
+
+/* hide buttom */
+@media print {
+    .button {
+        display: none;
+    }
+}
